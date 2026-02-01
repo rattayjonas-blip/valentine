@@ -15,4 +15,5 @@ yesBtn.addEventListener("click", () => {
   image.src = "yay.jpg";
   noBtn.style.display = "none";
   yesBtn.style.display = "none";
+  document.getElementById("hint").style.display = "none";
 });
